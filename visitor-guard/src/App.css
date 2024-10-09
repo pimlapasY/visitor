@@ -1,0 +1,22 @@
+/* Default Table Styles */
+.table-wrapper {
+    width: 100% !important;
+  }
+  
+  .rs-table-cell-content {
+    white-space: normal; /* Allow text to wrap to the next line */
+    word-break: break-word; /* Break long words to prevent overflow */
+  }
+  
+  /* Adjusting text size and table layout for mobile */
+  @media (max-width: 478px) {
+   
+   
+    .rs-table-cell-content {
+        white-space: normal !important;
+        height: auto;
+        font-size: 11px;
+        padding: 1px !important;
+    }
+  }
+  

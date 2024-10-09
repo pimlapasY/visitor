@@ -1,0 +1,41 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Sarabun', sans-serif; /* Use the Thai font */
+
+}
+
+.welcome-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+
+.start-button {
+    background-color: #ffffff;
+    color: #6e45e2;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #6e45e2;
+    color: #ffffff;
+}
